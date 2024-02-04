@@ -1,0 +1,58 @@
+body {
+  background-color: #C1C3C1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.stopwatch {
+  background-color: #CED0CE;
+
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.stopwatch h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.time {
+  display: block;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #f4c23d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0b12d;
+}
+
+#lapList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lapList li {
+  padding: 5px 0;
+}
